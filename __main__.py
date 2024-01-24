@@ -13,7 +13,7 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 intents = disnake.Intents.default()
 intents.messages = True  # Разрешаем боту получать информацию о сообщениях
 bot = commands.Bot(command_prefix='!', intents=intents)
-token='MTE5ODUxMTkxMDAzNTkyMjk0NA.Gh8lPj.K6AuuOKlIG_HLLoM3ONpzd-3tYDLgVFkQozJbM'
+token='TOKEN'
 
 bot.add_cog(N7_Stats_Module(bot))
 
